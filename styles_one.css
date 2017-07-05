@@ -109,33 +109,66 @@ body{
 
 #about h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Lora', serif;
 }
 
-#community {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-basis: 100%;
-  align-items: flex-end;
-  align-content: space-between;
-  /*flex-direction: column;*/
-  /*flex-wrap: nowrap;
-  padding: 5px;
-  flex-direction: row;
-  width: auto;*/
-}
-
-#community > img {
-  flex-basis: 20%;
-  flex-shrink: 2;
+#community img {
+  float: left;
+  max-width: 25%;
+  margin-right: 20px;
+  margin-left: 40px;
 }
 
 #community > p {
-  flex-basis: 80%;
+  margin-right: 50px;
 }
 
+.newsletter_body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+#quote {
+  text-align: center;
+  font-style: italic;
+}
+
+#newsletter {
+  position: relative;
+  bottom: 600px;
+  background-color: white;
+  padding: 20px;
+  color: #131511
+}
+#newsletter h2  {
+  text-align: center;
+}
+
+#newsletter h3  {
+  text-align: center;
+}
+
+#newsletter_pic {
+  max-width: 100%;
+}
+
+#history {
+  margin-left: 40px;
+  margin-right: 40px
+}
+
+#room_to_grow img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+#room_to_grow h1 {
+  position: relative;
+  bottom: 450px;
+  color: #F2F1E8;
+}
 
 #site-footer {
   color: #F2F1E8;
@@ -146,6 +179,44 @@ body{
   margin-top: 5%;
   font-family: 'Lora', serif;
 }
+
+/*#facilities {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 100%;
+}*/
+
+#ceramics img {
+  max-width: 30%;
+  float: right;
+}
+
+ceramics h4 {
+  float: right;
+}
+
+#facilities {
+  margin-left: 40px;
+  margin-right: 240px;
+}
+
+#monthly_plans {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#monthly_plans table{
+  margin-top: 20px;
+  margin-left: 15%;
+  table-layout: auto;
+}
+
+
+
+.two {
+  background-color: #F1EADC;
+}
+
 /*#community > p {
   flex-basis: 30%;
   flex-shrink: 1;
