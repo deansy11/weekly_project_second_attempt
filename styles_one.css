@@ -110,6 +110,7 @@ body{
 #about h1 {
   text-align: center;
   font-size: 50px;
+  font-weight: 400;
   font-family: 'Lora', serif;
 }
 
@@ -122,6 +123,13 @@ body{
 
 #community > p {
   margin-right: 50px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+  margin-left: 5%;
+}
+
+#community > p > a {
+  color: #B49E84;
 }
 
 .newsletter_body {
@@ -133,8 +141,67 @@ body{
 #quote {
   text-align: center;
   font-style: italic;
+  border-left: 1px solid #968773;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
+#history {
+  margin-left: 40px;
+  margin-right: 40px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
+#room_to_grow img {
+  max-width: 100%;
+  margin-bottom: 0;
+}
+
+#room_to_grow h1 {
+  position: relative;
+  bottom: 450px;
+  color: #F2F1E8;
+}
+
+#ceramics {
+  display: flex;
+  flex-direction: column;
+
+}
+#ceramics img {
+  width: 30%;
+}
+
+#ceramics > h4 {
+  width: 30%;
+}
+
+#facilities {
+  margin-left: 40px;
+  margin-right: 39%;
+  position: relative;
+  bottom: 120px;
+  font-family: 'Lora', serif;
+  font-size: 20px;
+}
+
+#monthly_plans {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#monthly_plans table{
+  margin-top: 20px;
+  margin-left: 15%;
+  table-layout: auto;
+  position: relative;
+  max-width: 60%;
+}
+
+.two {
+  background-color: #F1EADC;
+}
 #newsletter {
   position: relative;
   bottom: 500px;
@@ -191,21 +258,6 @@ body{
   margin-bottom: 0%;
 }
 
-#history {
-  margin-left: 40px;
-  margin-right: 40px
-}
-
-#room_to_grow img {
-  max-width: 100%;
-  margin-bottom: 0;
-}
-
-#room_to_grow h1 {
-  position: relative;
-  bottom: 450px;
-  color: #F2F1E8;
-}
 
 #site-footer {
   color: #F2F1E8;
@@ -215,37 +267,4 @@ body{
   height: 60px;
   margin-top: 5%;
   font-family: 'Lora', serif;
-}
-
-#ceramics img {
-  max-width: 30%;
-  float: right;
-}
-
-ceramics h4 {
-  float: right;
-}
-
-#facilities {
-  margin-left: 40px;
-  margin-right: 100px;
-  position: relative;
-  bottom: 120px;
-}
-
-#monthly_plans {
-  margin-left: 40px;
-  margin-right: 40px;
-}
-
-#monthly_plans table{
-  margin-top: 20px;
-  margin-left: 15%;
-  table-layout: auto;
-}
-
-
-
-.two {
-  background-color: #F1EADC;
 }
