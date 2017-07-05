@@ -22,7 +22,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-family: 'Lora', serif;
     line-height: 1.8;
-    margin: 0;
+    margin: 0 0 -16px 0;
     background-color: #F2F1E8;
 }
 
@@ -39,6 +39,13 @@ body{
         height: 80px;
         justify-content: space-between;
         max-width: 100%;
+        z-index: 1;
+        position: sticky;
+        box-shadow: -5px 5px 8px rgba(0, 0, 0, 0.1);
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
   }
 
 #logo{
@@ -80,12 +87,7 @@ body{
   justify-content: center;
   padding: 5px;
   flex-shrink: 1;
-  align-content: stretch;
-}
-
-.product_images ul img {
-  max-width: 95%;
-
+  /*align-content: stretch;*/
 }
 
 .product_images ul h3 {
@@ -102,10 +104,22 @@ body{
 }
 
 #row_one img {
-  flex-basis: 10%;
-  flex-shrink: 1;
+  height: 300px;
+  margin: 0 10px 0 10px;
 }
 
+#row_two img {
+    height: 200px;
+    margin: 0 10px 0 10px;
+}
+
+#product_one {
+  width: 505px;
+}
+
+#product_six {
+  width:300px;
+}
 
 #about h1 {
   text-align: center;
@@ -155,7 +169,7 @@ body{
 
 #room_to_grow img {
   max-width: 100%;
-  margin-bottom: 0;
+
 }
 
 #room_to_grow h1 {
@@ -202,6 +216,7 @@ body{
 .two {
   background-color: #F1EADC;
 }
+
 #newsletter {
   position: relative;
   bottom: 500px;
@@ -210,7 +225,7 @@ body{
   color: #131511
 }
 
-#newsletter #name {
+#newsletter #nameInput {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -220,7 +235,7 @@ body{
     box-sizing: border-box;
 }
 
-#newsletter #email {
+#newsletter #emailInput {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -234,7 +249,7 @@ body{
     font-size: 20px;
 }
 
-#newsletter [type=submit] {
+#newsletter #signupButton {
     width: 25%;
     background-color: #968773;
     color: white;
@@ -255,7 +270,6 @@ body{
 
 #newsletter_pic {
   max-width: 100%;
-  margin-bottom: 0%;
 }
 
 
