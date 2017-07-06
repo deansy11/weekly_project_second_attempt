@@ -70,14 +70,16 @@ body{
 
 #index_main h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-family: 'Lora', serif;
+  margin-bottom: 0;
 }
 
 #index_main h2 {
   text-align: center;
   font-size: 25px;
   font-family: 'Lora', serif;
+  margin-top: 0;
 
 }
 
@@ -86,8 +88,6 @@ body{
   display: flex;
   justify-content: center;
   padding: 5px;
-  flex-shrink: 1;
-  /*align-content: stretch;*/
 }
 
 .product_images ul h3 {
@@ -97,20 +97,21 @@ body{
   color: #F2F1E8;
   font-weight: 100;
   font-size: 15px;
-  margin: 3px;
+  margin: 4px;
+  margin-left: 10px;
   max-width: 40%;
   position: relative;
   bottom: 70px;
 }
 
 #row_one img {
-  height: 300px;
-  margin: 0 10px 0 10px;
+  height: 335px;
+  margin: 0 5px 0 5px;
 }
 
 #row_two img {
     height: 200px;
-    margin: 0 10px 0 10px;
+    margin: 0 5px 0 5px;
 }
 
 #product_one {
@@ -146,11 +147,6 @@ body{
   color: #B49E84;
 }
 
-.newsletter_body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 #quote {
   text-align: center;
@@ -178,26 +174,36 @@ body{
   color: #F2F1E8;
 }
 
+.flex_one {
+  display: flex;
+  /*justify-content: space-around;*/
+}
+
 #ceramics {
   display: flex;
   flex-direction: column;
-
+  flex-basis: 30%;
 }
+
 #ceramics img {
   width: 30%;
 }
 
 #ceramics > h4 {
+  margin: 0;
   width: 30%;
 }
 
+
 #facilities {
   margin-left: 40px;
-  margin-right: 39%;
-  position: relative;
+  margin-right: 10px;
+  position: relative;*/
   bottom: 120px;
   font-family: 'Lora', serif;
   font-size: 20px;
+  flex-basis: 70%;
+
 }
 
 #monthly_plans {
@@ -217,12 +223,20 @@ body{
   background-color: #F1EADC;
 }
 
+.newsletter_main {
+  background: url('optimized 2/background-2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 #newsletter {
-  position: relative;
-  bottom: 500px;
   background-color: white;
   padding: 20px;
-  color: #131511
+  margin-top: 70px;
 }
 
 #newsletter #nameInput {
@@ -239,7 +253,6 @@ body{
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
-  display: inline-block;
   border: none;
   border-bottom: 2px solid #968773;
   box-sizing: border-box;
@@ -272,13 +285,12 @@ body{
   max-width: 100%;
 }
 
-
 #site-footer {
   color: #F2F1E8;
   background-color: #1D2416;
   padding-left: 60px;
   padding-top: 28px;
   height: 60px;
-  margin-top: 5%;
+  margin-top: 0;
   font-family: 'Lora', serif;
 }
