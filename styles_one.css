@@ -106,12 +106,12 @@ body{
 
 #row_one img {
   height: 335px;
-  margin: 0 5px 0 5px;
+  margin: 0 4px 0 4px;
 }
 
 #row_two img {
-    height: 200px;
-    margin: 0 5px 0 5px;
+    height: 170px;
+    margin: 0 4px 0 4px;
 }
 
 #product_one {
@@ -119,7 +119,7 @@ body{
 }
 
 #product_six {
-  width:300px;
+  width: 264px;
 }
 
 #about h1 {
@@ -131,16 +131,16 @@ body{
 
 #community img {
   float: left;
-  max-width: 25%;
+  max-width: 20%;
   margin-right: 20px;
-  margin-left: 40px;
+  margin-left: 140px;
 }
 
 #community > p {
-  margin-right: 50px;
+  margin-right: 140px;
   font-family: 'Lora', serif;
   font-size: 20px;
-  margin-left: 5%;
+  margin-left: 140px;
 }
 
 #community > p > a {
@@ -157,8 +157,8 @@ body{
 }
 
 #history {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: 140px;
+  margin-right: 140px;
   font-family: 'Lora', serif;
   font-size: 20px;
 }
@@ -176,47 +176,51 @@ body{
 
 .flex_one {
   display: flex;
-  /*justify-content: space-around;*/
+  /*justify-content: space-between;*/
 }
 
 #ceramics {
   display: flex;
   flex-direction: column;
-  flex-basis: 30%;
+  flex-basis: 39%;
 }
 
 #ceramics img {
-  width: 30%;
+  margin-top: -80px;
+  width: 39%;
 }
 
 #ceramics > h4 {
   margin: 0;
-  width: 30%;
+  width: 36%;
+  font-weight: lighter;
 }
 
 
 #facilities {
-  margin-left: 40px;
-  margin-right: 10px;
-  position: relative;*/
-  bottom: 120px;
-  font-family: 'Lora', serif;
+  margin: -150px 10px 0 140px;
+  font-family: 'Merriweather', serif;
   font-size: 20px;
-  flex-basis: 70%;
-
+  flex-basis: 65%;
 }
 
 #monthly_plans {
-  margin-left: 40px;
+  margin-left: 140px;
   margin-right: 40px;
+  font-family: 'Merriweather', serif;
+  font-weight: lighter;
+  font-size: 20px;
 }
 
 #monthly_plans table{
-  margin-top: 20px;
-  margin-left: 15%;
+  margin: 20px 0 30px 60px;
   table-layout: auto;
   position: relative;
-  max-width: 60%;
+  max-width: 70%;
+}
+
+#monthly_plans table th {
+  padding: 0 40px 0 20px;
 }
 
 .two {
